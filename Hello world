@@ -1,0 +1,7 @@
+#include<iostream> //It is a header file library that is used to work with input annd output objects.
+using namespace std; //It means that we can use names for objects and variables from the standard library.
+
+int main(){
+    cout<<"Hello World";
+    return 0;
+}
