@@ -1,0 +1,21 @@
+  //Add integers enter by the user
+  
+  #include<iostream>
+  using namespace std;
+  
+  int main(){
+      
+      int n ;//Initialization of variables;
+      int sum=0;       
+      cout<<"Enter the value of n:-";
+      cin>>n;
+      
+      for(int i=0;i<n;i++){ //To iterate from o to n
+          cout<<i<<endl;
+          
+          sum=sum+i;
+      }
+      
+      cout<<sum;
+      return 0;
+  }
